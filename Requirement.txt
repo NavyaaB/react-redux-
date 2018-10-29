@@ -1,0 +1,8 @@
+
+
+Requirements:
+
+Initialize the state of the application with a collection of at least 10 vehicles and make them display on the page. 
+For the purposes of this exercise, 'Make' 'Model' and 'Year' is quite sufficient to describe a vehicle.
+For each vehicle listed, include a delete button, which will remove the item from the list when clicked.
+
