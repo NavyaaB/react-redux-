@@ -1,2 +1,10 @@
 # dependencies
 /node_modules
+
+/nodemodules
+
+# testing
+/coverage
+
+# production
+/build
