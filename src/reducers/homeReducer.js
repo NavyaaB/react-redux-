@@ -1,10 +1,6 @@
-import { APP_LOAD, APP_UNLOAD, REMOVE_VEHICLE } from '../constants/actionTypes';
+import { APP_LOAD, REMOVE_VEHICLE } from '../constants/actionTypes';
 
-const initialState = {
-  items: [],
-  item: {}
-}
-export default function(state = initialState, action){
+export default function(state = {items:[], item: {}}, action){
   switch (action.type) {
     case APP_LOAD:
     //console.log('reducer');
@@ -14,8 +10,6 @@ export default function(state = initialState, action){
         items: action.payload,
         tags: action.payload[0].tags
       };
-    case APP_UNLOAD:
-      return {};
 
     case REMOVE_VEHICLE: 
     //console.log('removing vehicle based on id or we can use vehicle model');

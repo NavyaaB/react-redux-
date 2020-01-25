@@ -1,4 +1,4 @@
-import { APP_LOAD, APP_UNLOAD, REMOVE_VEHICLE, GET_DATA } from './actionTypes';
+import { APP_LOAD, REMOVE_VEHICLE } from './actionTypes';
 import list from '../vehicledetails/list';
 
 export const fetchData = () => dispatch => {
